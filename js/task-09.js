@@ -9,5 +9,5 @@ btnChangeColor.addEventListener("click", addChangeColor);
 
 function addChangeColor() {
   bodyEl.style.backgroundColor = getRandomHexColor();
-  spanEl.textContent = getRandomHexColor();
+  spanEl.textContent = bodyEl.style.backgroundColor;
 }
